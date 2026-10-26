@@ -1,0 +1,16 @@
+{
+  "name": "resource-sharing-mern",
+  "version": "1.0.0",
+  "description": "Resource Sharing & Lost Found Hub – MERN Stack",
+  "private": true,
+  "scripts": {
+    "dev": "node node_modules/concurrently/dist/bin/concurrently.js \"npm run server\" \"npm run client\"",
+    "client": "npm run dev --prefix client",
+    "server": "npm run dev --prefix server",
+    "install:all": "npm install && npm install --prefix client && npm install --prefix server",
+    "test:server": "npm test --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

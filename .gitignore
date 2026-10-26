@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables
+.env
+server/.env
+client/.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build outputs
+client/dist/
+client/build/
+
+# Local uploads
+server/uploads/
+
+# Test artifacts
+coverage/
+.nyc_output/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
